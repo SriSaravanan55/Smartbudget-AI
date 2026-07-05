@@ -9,7 +9,10 @@ import pandas as pd
 import requests
 import streamlit as st
 
-API_BASE = os.getenv("API_BASE", "http://localhost:8000")
+API_BASE = os.getenv(
+    "API_BASE",
+    "https://smartbudget-ai-vd08.onrender.com"
+)
 API_V1 = f"{API_BASE}/api/v1"
 
 st.set_page_config(page_title="SmartBudget AI", page_icon="💰", layout="wide")
