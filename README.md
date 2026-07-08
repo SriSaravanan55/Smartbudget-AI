@@ -1,3 +1,8 @@
+LIVE LINK : https://smartbudget-ai-1.onrender.com
+
+
+
+
 # SmartBudget AI
 
 A full-stack, multi-agent personal finance advisor. FastAPI backend with JWT auth,
